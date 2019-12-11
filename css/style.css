@@ -1,4 +1,4 @@
-body{background-color: #f2f7ff;}
+/*body{background-color: #f2f7ff;}*/
 
 div {
 	width: 50%;
@@ -28,9 +28,9 @@ h1 {
 	
 }
 
-iframe {
+/*iframe {
 	box-shadow: 5px 5px 10px gray;
-}
+}*/
 .frame {
 	display:flex;
 	width: 100%;
@@ -87,4 +87,13 @@ iframe {
 	left: 0;
 	margin: auto;
 	transform: translate(110%, 50%);
+}
+
+logo-bar {
+ 	visibility: hidden;
+ 	background-color: white; 
+ }
+
+.logoBar {
+	visibility: hidden;
 }
