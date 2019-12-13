@@ -11,19 +11,26 @@
   text-align: center;
 }
 
+.middleText2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  color: #ffbd33;
+}
+
 h1 {
 	text-align: center;
 }
 
 .rowContainerEven {
   width: 100%;
-  background-color: black; 
+  background-color: black;
   padding: 50px 50px 50px 50px;
 }
 
 .rowContainerOdd {
   width: 100%;
-  background-color: #737373; 
+  background-color: #737373;
   padding: 50px 50px 50px 50px;
   font-color: white;
 }
