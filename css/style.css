@@ -67,7 +67,7 @@ a:hover {
   transform: translate(80%, 80%);
 }
 
-#txt1 {
+.txt1 {
   text-indent: 200%;
   white-space: nowrap;
   overflow: hidden;

@@ -15,18 +15,23 @@
 <script type="text/javascript">
 var hidden=true;
 function toggleText() {
-  var el = document.getElementByClassName("txt1")
+
+  let myElements = document.querySelectorAll(".txt1");
   if(hidden){
     hidden = false;
-    el.style.textIndent = "0%";
-    el.style.whiteSpace = "normal";
-    el.style.overflow = "visible";
+    for (let i = 0; i < myElements.length; i++) {
+      myElements[i].style.textIndent = "0%";
+      myElements[i].style.whiteSpace = "normal";
+      myElements[i].style.overflow = "visible";
+    }
   }
   else {
     hidden = true;
-    el.style.textIndent = "100%";
-    el.style.whiteSpace = "nowrap";
-    el.style.overflow = "hidden";
+    for (let i = 0; i < myElements.length; i++) {
+      myElements[i].style.textIndent = "0%";
+      myElements[i].style.whiteSpace = "nowrap";
+      myElements[i].style.overflow = "hidden";
+    }
   };
 };
 </script>
@@ -62,7 +67,7 @@ function toggleText() {
         <iframe class="chart1928" width="800" height="800" src="https://app.powerbi.com/view?r=eyJrIjoiYTQwNDg3OTctODJlOC00ODFjLWFkOTAtZWMxMjU5MTJmNDU1IiwidCI6ImY5NjY5MTY3LWY3NGMtNDUyOS04ZGZjLWNmZDFmYWM5Mzc3NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
       </div>
       <div class="col my-auto">
-        <p>
+        <p class="txt1">
           In the first image, we can see that the pioneer sports allowing a female category were <i>Swimming</i>, <i>Diving</i>, <i>Athletics</i>, <i>Gymnastics</i>, <i>Fencing</i> and <i>Sailing</i>. It is worth saying that the participation in the first two sports was about 40%, which is quite high considering the fact that it was the first year they were allowed to compete. 44 years later, in the 1972, only 5 more sports welcomed a female category. Let us now say that <i>Sailing</i>, which appeared in 1928, was not regarded as an Olympic sport anymore. Despite this small improvement, we can see that the female participation in such disciplines was quite high. Observe that, from <i>Diving</i> to <i>Volleyball</i>, women almost equalled men. Finally, the last chart depicts the participation in 2016 for the 15 sports with higher female presence. Fortunately, in such year, all sports had a female category. The first aspect that stands out from such image is the fact that there are two sports with no male category, which are <i>Rhythmic Gymnastics</i> and <i>Synchronized Swimming</i>. Besides, the rest of the disciplines appearing in the bar chart have almost the same percentage of female and male participants. This leads us to think that sport is, by no means, a male-dominated world.
         </p>
       </div>
@@ -87,10 +92,7 @@ function toggleText() {
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col  my-auto">
-        <p>
-        </p>
-
-        <p>
+        <p class="txt1">
           Although the difference between genders was vast at the beginning, it has been diminishing since the 60's. From that year, female participation has increased until it almost reached a 50% of the total participation. So, a message of hope and encouragement can be inferred from that image. Sport is no longer a male-dominant world.
         </p>
       </div>
@@ -129,11 +131,11 @@ Now that we have seen a global view of the gender influence in sport, let's focu
         <iframe class="evoGen" width="800" height="350" src="https://app.powerbi.com/view?r=eyJrIjoiYjJhZTBlODktY2MzMC00NDZjLWI5NTQtMzIwNThjZDYxMDQ5IiwidCI6ImY5NjY5MTY3LWY3NGMtNDUyOS04ZGZjLWNmZDFmYWM5Mzc3NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
       </div>
       <div class="col my-auto">
-        <p id="txt1">
+        <p class="txt1">
         Athletics events have their roots in the ancient Greek Olympic games, which were festivals composed only of athletic competitions. These ancient Olympics were strictly male affairs, as to both participants and spectators. However, Greek women formed their own <a href="https://healthandfitnesshistory.com/historical-athletes/ancient-heraean-games/">Heraea Games</a>, which, like the Olympics, were held every four years.
         </p>
 
-        <p id="txt1">
+        <p class="txt1">
         The development of the modern sport, however, started in the early 19th century, but not until the revival of the Olympic Games in 1896 did the sport become truly international. Even though Athletics has been part of the Olympics since its birth, it was not until 1928 that women could take part in the competition. The evolution of men and women participation in the games is shown in the following chart.
         </p>
       </div>
@@ -151,11 +153,11 @@ Now that we have seen a global view of the gender influence in sport, let's focu
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col my-auto">
-        <p>
+        <p class="txt1">
         The previous figure shows that since the arrival of women in the competition, their participation increased noticeably, until almost matching the men participation in 2016. Hence, just as it happened in the ancient Greece, Athletics is not a male-dominant sport anymore. It can also be noticed from the previous chart that there are some recession periods, where the overall participation decreased significantly. The first two periods correspond to the first and second world war respectively. The third period corresponds to the 1980-1984 summer Olympics boycott, where the USA initiated a protest against the Soviet invasion of Afghanistan.
         </p>
 
-        <p id="txt1">
+        <p class="txt1">
         Now, we will focus on the geographic involvement of women in athletics. The following chart shows the participation  of women in different countries.
         </p>
       </div>
@@ -181,7 +183,7 @@ Now that we have seen a global view of the gender influence in sport, let's focu
         <iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNTQ4MDk2MzktZDRlOC00MTc5LWFjMDUtOTg1ZjZiMmNkNTFiIiwidCI6ImY5NjY5MTY3LWY3NGMtNDUyOS04ZGZjLWNmZDFmYWM5Mzc3NiIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>
       </div>
       <div class="col my-auto">
-        <p>
+        <p class="txt1">
           The previous chart shows that women participation in athletics is present in almost every single country. The women participation is specially significant in some large countries such as USA and China, which is expectable since the total participation is also high. On the other hand, there are smaller countries with noticeable participation, such as the UK, Germany and France. The majority of these countries belong to Europe, which is the continent with more involvement in this sport. Apart from the participation, it is also interesting to see which are the most competitive countries. The following chart shows the top three countries where women have won more medals.
         </p>
       </div>
@@ -202,11 +204,11 @@ Now that we have seen a global view of the gender influence in sport, let's focu
   <div class="container">
     <div class="row justify-content-md-center">
       <div class="col my-auto">
-        <p id="txt1">
+        <p class="txt1">
         Again, large countries such as USA and Russia have better results in feminine athletics, but also smaller European countries such as Germany excel in this sport.
         </p>
 
-        <p id="txt1">
+        <p class="txt1">
         Until now we have explored the history of athletics through space and time. But what about the here and now? The following charts show the current situation of Spain compared to Europe and to the world, regarding gender participation in athletics.
         </p>
       </div>
