@@ -1,27 +1,47 @@
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+.middleTextWrapper {
+  width: 40%;
   text-align: center;
-  vertical-align: middle;
+  margin-left: 30%;
+  right: 30%;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.text {
-	padding: 3em 3em 3em 3em;
-}
-
-p {
-	text-justify: auto;
+.middleText {
+  text-align: center;
 }
 
 h1 {
 	text-align: center;
+}
+
+.rowContainerEven {
+  width: 100%;
+  background-color: black; 
+  padding: 50px 50px 50px 50px;
+}
+
+.rowContainerOdd {
+  width: 100%;
+  background-color: #737373; 
+  padding: 50px 50px 50px 50px;
+  font-color: white;
+}
+
+.rowContainerOdd p {
+  color: white;
+}
+
+.col my-auto p {
+  margin-left: 100px;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color:white;
+  text-decoration: none;
 }
