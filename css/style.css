@@ -21,6 +21,8 @@
 h1 {
 	text-align: center;
   margin-top: 5%;
+  font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+  font-size: 50px;
 }
 
 .rowContainerEven {
@@ -38,6 +40,10 @@ h1 {
 
 .rowContainerOdd p {
   color: white;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
 }
 
 .col my-auto p {
