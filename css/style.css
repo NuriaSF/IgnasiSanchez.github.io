@@ -41,6 +41,7 @@ h1 {
 
 .col my-auto p {
   margin-left: 100px;
+  text-align: justify;
 }
 
 a {
@@ -49,7 +50,7 @@ a {
 }
 
 a:hover {
-  color:white;
+  color:black;
   text-decoration: none;
 }
 
