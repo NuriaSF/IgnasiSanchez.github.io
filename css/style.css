@@ -72,3 +72,15 @@ a:hover {
   white-space: nowrap;
   overflow: hidden;
 }
+
+#cobi{
+  visibility: show;
+}
+
+#cobi2{
+  visibility: hidden;
+}
+
+#cobi3{
+  visibility: hidden;
+}

@@ -12,37 +12,25 @@
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<script type="text/javascript">
-var hidden=true;
-function toggleText() {
+<script src="JavaScript/monyeco.js"></script>
 
-  let myElements = document.querySelectorAll(".txt1");
-  if(hidden){
-    hidden = false;
-    for (let i = 0; i < myElements.length; i++) {
-      myElements[i].style.textIndent = "0%";
-      myElements[i].style.whiteSpace = "normal";
-      myElements[i].style.overflow = "visible";
-    }
-  }
-  else {
-    hidden = true;
-    for (let i = 0; i < myElements.length; i++) {
-      myElements[i].style.textIndent = "100%";
-      myElements[i].style.whiteSpace = "nowrap";
-      myElements[i].style.overflow = "hidden";
-    }
-  };
-};
-</script>
 
 </head>
 
 <body>
 
 <div class="cobi_caixa">
-<img id="cobi" onclick="toggleText()" width="220" height="180" src="cobi_general.png"/>
+<img id="cobi2" width="266" height="216" src="cobi_general_2.png"/>
 </div>
+
+<div class="cobi_caixa">
+<img id="cobi3" width="266" height="216" src="cobi_general_3.png"/>
+</div>
+
+<div class="cobi_caixa">
+<img id="cobi" onclick="toggleText()" onmouseover="fade_in()" onmouseleave="fade_out()" width="266" height="216" src="cobi_general.png"/>
+</div>
+
 
 <div class='some-page-wrapper'>
 
